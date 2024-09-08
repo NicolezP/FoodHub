@@ -8,11 +8,17 @@ FoodHub is a food aggregator that connects users, primarily students and busy pr
 Analyze collected data on customer orders through their online platform and answer key business questions provided by the Data Science team, offering insights that will support the company's business improvements.
 
 ## Analyze
- 1.	First look at the dataset
-
+ ### 1.	First look at the dataset<br>
+*![](Images/1.png)*<br>
 **Observations:**
 *    There are 1898 rows and 9 columns in the data
 *    Categorical features: restaurant_name , cuisine_type, day_of_week, rating<br>
      Numeric features : cost_of_the_order , food_preparation_time ,  delivery_time 
 *    customer_id do not have a meaningful numeric relationship and is considered as categorical
-* 	order_id also do not have a meaningful numeric relationship and is considered as categorical. But in the context of this study, it is also the primary key or unique identifier
+*    order_id also do not have a meaningful numeric relationship and is considered as categorical. But in the context of this study, it is also the **primary key** or unique identifier
+
+### 2.	Are there any missing values in the data?<br>
+*![](Images/2.png)*<br>
+**Observations:**
+*    There are no nulls in the dataset
+*    rating feature of the data set has "Not given" which is actually missing customer ratings.
