@@ -11,7 +11,8 @@ Analyze collected data on customer orders through their online platform and answ
 ## Analyze 
 
 ### First look at the dataset 
-*insert image 1*<br>
+
+![](Images/1.PNG)<br>
 *insert image 2*<br>
 
 **Observations:**
