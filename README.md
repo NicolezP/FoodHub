@@ -84,17 +84,18 @@ A few possible reasons could be the lack of man power in the delivery crew / tra
 
 **What affect customer ratings**
 
+To understand what affect customer ratings we have to address the elephant in the room : **'Not given' values in rating features** <br>
+**Steps to take :**
+* check with the team if we can get the actual values, if can we supplement this information with another dataset
+* if the above is not possible, Explore the "Not given" values in rating feature to see if we could find a pattern that would correlate to the missing values
+* As this is a sizable check of data (38% of lastly Impute these values with mean rating 
 
-Conclusions : 
+**Observation** : After exploring the distribution of the data in 'Not given values, the  proportion of missing values is fairly consistent throughout all features. There is no pattern or correlation to the rating 'Not given' values with the other features. We could say that the 'Not given' vaules are missing at random. <br>
+Therefore to be able to make inferencees from the rating feature by agg
 
-**'Not given' values in rating features**
- 736 missing values for 'rating' column. this is a sizable chunk about 38% of the missing values are not 
-
-Explore the "Not given" values in rating feature to see what could have caused the missing values .
-We're assuming the 'Not given' values are there completely at random so this is a case of (Missing at random). And there are several reasons reinforcing this assumption:
-•	Treating misaligned values - rating: we'll want to do calculations on the rating variable, like getting the mean rating. And it is not interesting to us in this analysis to explore 'not given' as a categorical group, so we'll replace it to NaN.
-•	Categorical features: restaurant_name , cuisine_type, day_of_week, rating
-*insert image 3*
-*insert image 9*
+## Conclusion
+### Insights 
+### Observations 
+## Recommendations 
 
 
